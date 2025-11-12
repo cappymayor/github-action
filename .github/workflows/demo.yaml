@@ -10,4 +10,6 @@ jobs:
     - name: Display the path
       shell: bash
       run: echo $PATH
+    - name: checkout repository
+      uses: actions/checkout@v5
     
