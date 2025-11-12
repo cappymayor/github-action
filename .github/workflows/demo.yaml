@@ -12,5 +12,5 @@ jobs:
 
     - name: Display the path
       shell: bash
-      run: echo ${{ github.token }}
+      run: echo ${{ github.ref }}
     
