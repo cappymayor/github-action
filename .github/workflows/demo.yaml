@@ -12,5 +12,5 @@ jobs:
 
     - name: Display the path
       shell: bash
-      run: python --version
+      run: echo ${{ secrets.PROD_PASSWORD }}
     
