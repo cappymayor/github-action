@@ -12,5 +12,5 @@ jobs:
 
     - name: Display the path
       shell: bash
-      run: echo ${{ env.NEW }}
+      run: echo ${{ secrets.PROD_PASSWORD }}
     
