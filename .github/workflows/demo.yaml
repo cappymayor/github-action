@@ -12,6 +12,6 @@ jobs:
 
     - name: Display the path
       shell: bash
-      run: echo $GITHUB_REF_NAME
+      run: echo $GITHUB_SHA
       
     
