@@ -6,12 +6,12 @@ jobs:
   demo:
     name: test-job
     runs-on: ubuntu-latest
-    environment: staging
     steps:
     - name: checkout repository
       uses: actions/checkout@v5
 
     - name: Display the path
       shell: bash
-      run: echo ${{ secrets.PROD_PASSWORD }}
+      run: echo ${{ GITHUB_REF_NAME }}
+      
     
